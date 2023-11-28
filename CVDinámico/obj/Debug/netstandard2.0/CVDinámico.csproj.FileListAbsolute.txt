@@ -25,11 +25,6 @@ D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\bin\Debug\netstandar
 D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.csproj.AssemblyReference.cache
 D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.GeneratedMSBuildEditorConfig.editorconfig
 D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\App.xaml.g.cs
-D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
-D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
-D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
-D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
-D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.AssemblyInfoInputs.cache
 D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.AssemblyInfo.cs
 D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.csproj.CoreCompileInputs.cache

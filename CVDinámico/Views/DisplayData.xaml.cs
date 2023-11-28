@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CVDinámico.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,21 +13,10 @@ namespace CVDinámico.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DisplayData : ContentPage
     {
-        public DisplayData(string nombre, string apellidos, string nacimiento, string ocupacion, string telefono, string email)
+        public DisplayData(VMDisplayData vmd)
         {
             InitializeComponent();
-
-            l_nombre.Text = $"Nombre: {nombre}";
-            l_apellidos.Text = $"Apellidos: {apellidos}";
-            l_nacimiento.Text = $"Nacimiento: {nacimiento}";
-            l_ocupacion.Text = $"Ocupacion: {ocupacion}";
-            l_telefono.Text = $"Telefono: {telefono}";
-            l_email.Text = $"Email: {email}";
-        }
-
-        private void Btnrestart_OnClicked(object sender, EventArgs e)
-        {
-            Navigation.PopAsync();
+            BindingContext = new VMDisplayData(Navigation, vmd);
         }
     }
 }

@@ -25,7 +25,7 @@
                            PlaceholderColor="Gray"
                            TextColor="Black"
                            FontSize="Large"
-                           x:Name="nombre"/>
+                           Text="{Binding FirstName}"/>
 
                 </Frame>
 
@@ -41,14 +41,14 @@
                            PlaceholderColor="Gray"
                            TextColor="Black"
                            FontSize="Large" 
-                           x:Name="apellidos"/>
+                           Text="{Binding LastName}"/>
 
                 </Frame>
 
                 <Label Text="Fecha de Nacimiento*"
                        FontSize="Large"/>
 
-                <DatePicker x:Name="nacimiento"/>
+                <DatePicker Date="{Binding BirthDay}"/>
                 
                 <Label Text="Ocupación*"
                        FontSize="Large"/>
@@ -62,7 +62,7 @@
                            PlaceholderColor="Gray"
                            TextColor="Black"
                            FontSize="Large" 
-                           x:Name="ocupacion"/>
+                           Text="{Binding Ocupation}"/>
 
                 </Frame>
 
@@ -78,7 +78,7 @@
                            PlaceholderColor="Gray"
                            TextColor="Black"
                            FontSize="Large" 
-                           x:Name="telefono"/>
+                           Text="{Binding Phone}"/>
 
                 </Frame>
 
@@ -94,7 +94,7 @@
                            PlaceholderColor="Gray"
                            TextColor="Black"
                            FontSize="Large" 
-                           x:Name="email"/>
+                           Text="{Binding Email}"/>
 
                 </Frame>
 
@@ -105,8 +105,7 @@
                         Margin="0,20,0,0"
                         BackgroundColor="SkyBlue"
                         TextColor="Black"
-                        x:Name="btniniciar"
-                        Clicked="btniniciar_Clicked"/>
+                        Command="{Binding AsynchProcessCommand}"/>
             </StackLayout>
         </Grid>
     </ContentPage.Content>

@@ -8,29 +8,23 @@
             <StackLayout VerticalOptions="Center"
                  Spacing="5"
                  Margin="20">
-                <Label Text="Nombre"
-                       FontSize="Large"
-                       x:Name="l_nombre"/>
-                
-                <Label Text="Apellidos"
-                       FontSize="Large"
-                       x:Name="l_apellidos"/>
-                
-                <Label Text="Fecha de Nacimiento"
-                       FontSize="Large"
-                       x:Name="l_nacimiento"/>
+                <Label Text="{Binding FirstName, StringFormat='Name: {0}'}"
+                       FontSize="Large"/>
 
-                <Label Text="Ocupación"
-                       FontSize="Large"
-                       x:Name="l_ocupacion"/>
-                
-                <Label Text="Teléfono"
-                       FontSize="Large"
-                       x:Name="l_telefono"/>
-                
-                <Label Text="Email"
-                       FontSize="Large"
-                       x:Name="l_email"/>
+                <Label Text="{Binding LastName, StringFormat='LastName: {0}'}"
+                       FontSize="Large"/>
+
+                <Label Text="{Binding BirthDay, StringFormat='BirthDay: {0}'}"
+                       FontSize="Large"/>
+
+                <Label Text="{Binding Ocupation, StringFormat='Ocupation: {0}'}"
+                       FontSize="Large"/>
+
+                <Label Text="{Binding Phone, StringFormat='Phone: {0}'}"
+                       FontSize="Large"/>
+
+                <Label Text="{Binding Email, StringFormat='Email: {0}'}"
+                       FontSize="Large"/>
                 
                 <Button Text="Nuevo CV"
                 CornerRadius="10"
@@ -38,9 +32,7 @@
                 FontAttributes="Bold"
                 Margin="0,20,0,0"
                 BackgroundColor="SkyBlue"
-                TextColor="Black"
-                x:Name="btnrestart"
-                Clicked="Btnrestart_OnClicked"/>
+                TextColor="Black"/>
             </StackLayout>
         </Grid>
     </ContentPage.Content>

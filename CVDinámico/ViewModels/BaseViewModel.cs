@@ -1,54 +1,93 @@
-﻿using CVDinámico.Models;
-using CVDinámico.Services;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Forms;
+using System.Runtime.CompilerServices;
+using System.ComponentModel;
 
 namespace CVDinámico.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>();
+        public INavigation Navigation;
 
-        bool isBusy = false;
-        public bool IsBusy
+        public event PropertyChangedEventHandler PropertyChanged;
+        public void OnpropertyChanged([CallerMemberName] string nombre = "")
         {
-            get { return isBusy; }
-            set { SetProperty(ref isBusy, value); }
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nombre));
+        }
+        private ImageSource foto;
+        public ImageSource Foto
+        {
+            get { return foto; }
+            set
+            {
+                foto = value;
+                OnpropertyChanged();
+            }
         }
 
-        string title = string.Empty;
-        public string Title
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
-            get { return title; }
-            set { SetProperty(ref title, value); }
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        protected bool SetProperty<T>(ref T backingStore, T value,
-            [CallerMemberName] string propertyName = "",
-            Action onChanged = null)
+        public async Task DisplayAlert(string title, string message, string cancel)
         {
-            if (EqualityComparer<T>.Default.Equals(backingStore, value))
+            await Application.Current.MainPage.DisplayAlert(title, message, cancel);
+        }
+
+        public async Task<bool> DisplayAlert(string title, string message, string accept, string cancel)
+        {
+            return await Application.Current.MainPage.DisplayAlert(title, message, accept, cancel);
+        }
+
+        protected bool SetProperty<T>(ref T field, T value, [CallerMemberName] string propertyName = null)
+        {
+            if (EqualityComparer<T>.Default.Equals(field, value))
+            {
                 return false;
+            }
 
-            backingStore = value;
-            onChanged?.Invoke();
+            field = value;
             OnPropertyChanged(propertyName);
+
             return true;
         }
 
-        #region INotifyPropertyChanged
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
+        private string _title;
+        public string Title
         {
-            var changed = PropertyChanged;
-            if (changed == null)
+            get { return _title; }
+            set
+            {
+                SetProperty(ref _title, value);
+            }
+        }
+
+        private bool _isBusy;
+        public bool IsBusy
+        {
+            get { return _isBusy; }
+            set
+            {
+                SetProperty(ref _isBusy, value);
+            }
+        }
+        protected void SetValue<T>(ref T backingFieled, T value, [CallerMemberName] string propertyName = null)
+        {
+            if (EqualityComparer<T>.Default.Equals(backingFieled, value))
+
+            {
+
                 return;
 
-            changed.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            }
+
+            backingFieled = value;
+
+            OnPropertyChanged(propertyName);
         }
-        #endregion
     }
 }

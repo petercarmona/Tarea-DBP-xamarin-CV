@@ -1,4 +1,4 @@
-﻿using CVDinámico.Services;
+﻿
 using CVDinámico.Views;
 using System;
 using Xamarin.Forms;
@@ -13,8 +13,7 @@ namespace CVDinámico
         {
             InitializeComponent();
 
-            DependencyService.Register<MockDataStore>();
-            MainPage = new NavigationPage( new PantallaPrincipal());
+            MainPage = new NavigationPage(new PantallaPrincipal());
         }
 
         protected override void OnStart()
