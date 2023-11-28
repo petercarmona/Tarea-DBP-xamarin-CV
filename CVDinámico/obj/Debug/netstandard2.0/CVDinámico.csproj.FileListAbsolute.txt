@@ -1,0 +1,41 @@
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\bin\Debug\netstandard2.0\CVDinámico.deps.json
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\bin\Debug\netstandard2.0\CVDinámico.dll
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\bin\Debug\netstandard2.0\ref\CVDinámico.dll
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\bin\Debug\netstandard2.0\CVDinámico.pdb
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.AssemblyInfo.cs
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.dll
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\refint\CVDinámico.dll
+C:\Users\User\Desktop\UCSP\Desarrollo basado en plataforma\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.pdb
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\bin\Debug\netstandard2.0\CVDinámico.deps.json
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\bin\Debug\netstandard2.0\CVDinámico.dll
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\bin\Debug\netstandard2.0\ref\CVDinámico.dll
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\bin\Debug\netstandard2.0\CVDinámico.pdb
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.csproj.AssemblyReference.cache
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.GeneratedMSBuildEditorConfig.editorconfig
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.AssemblyInfoInputs.cache
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.AssemblyInfo.cs
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.csproj.CoreCompileInputs.cache
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.dll
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\refint\CVDinámico.dll
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\CVDinámico.pdb
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\PantallaPrincipal.xaml.g.cs
+D:\Xamarin\CV Dinámico\CVDinámico\CVDinámico\CVDinámico\obj\Debug\netstandard2.0\Views\DisplayData.xaml.g.cs

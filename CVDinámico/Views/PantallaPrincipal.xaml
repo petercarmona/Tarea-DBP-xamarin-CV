@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CVDinámico.PantallaPrincipal"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid>
+            <StackLayout VerticalOptions="Center"
+                         Spacing="5"
+                         Margin="20">
+
+                <Label Text="CV"
+                       FontSize="Header"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Nombre*"
+                       FontSize="Large"/>
+
+                <Frame HasShadow="False"
+                       CornerRadius="15"
+                       Padding=" 10, 0, 10, 0">
+
+                    <Entry Keyboard="Default"
+                           Placeholder="nombre"
+                           PlaceholderColor="Gray"
+                           TextColor="Black"
+                           FontSize="Large"
+                           x:Name="nombre"/>
+
+                </Frame>
+
+                <Label Text="Apellido(s)*"
+                       FontSize="Large"/>
+
+                <Frame HasShadow="False"
+                       CornerRadius="15"
+                       Padding=" 10, 0, 10, 0">
+
+                    <Entry Keyboard="Default"
+                           Placeholder="Apellidos"
+                           PlaceholderColor="Gray"
+                           TextColor="Black"
+                           FontSize="Large" 
+                           x:Name="apellidos"/>
+
+                </Frame>
+
+                <Label Text="Fecha de Nacimiento*"
+                       FontSize="Large"/>
+
+                <DatePicker x:Name="nacimiento"/>
+                
+                <Label Text="Ocupación*"
+                       FontSize="Large"/>
+
+                <Frame HasShadow="False"
+                        CornerRadius="15"
+                        Padding=" 10, 0, 10, 0">
+
+                    <Entry Keyboard="Default"
+                           Placeholder="Ocupación"
+                           PlaceholderColor="Gray"
+                           TextColor="Black"
+                           FontSize="Large" 
+                           x:Name="ocupacion"/>
+
+                </Frame>
+
+                <Label Text="Teléfono*"
+                       FontSize="Large"/>
+
+                <Frame HasShadow="False"
+                        CornerRadius="15"
+                        Padding=" 10, 0, 10, 0">
+
+                    <Entry Keyboard="Numeric"
+                           Placeholder="Teléfono"
+                           PlaceholderColor="Gray"
+                           TextColor="Black"
+                           FontSize="Large" 
+                           x:Name="telefono"/>
+
+                </Frame>
+
+                <Label Text="Email*"
+                       FontSize="Large"/>
+
+                <Frame HasShadow="False"
+                        CornerRadius="15"
+                        Padding=" 10, 0, 10, 0">
+
+                    <Entry Keyboard="Email"
+                           Placeholder="Email"
+                           PlaceholderColor="Gray"
+                           TextColor="Black"
+                           FontSize="Large" 
+                           x:Name="email"/>
+
+                </Frame>
+
+                <Button Text="Enviar"
+                        CornerRadius="10"
+                        FontSize="Large"
+                        FontAttributes="Bold"
+                        Margin="0,20,0,0"
+                        BackgroundColor="SkyBlue"
+                        TextColor="Black"
+                        x:Name="btniniciar"
+                        Clicked="btniniciar_Clicked"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
